@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image:url("diamond_upholstery.png");
+    background-image:url("./Imagenes/diamond_upholstery.png");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -16,7 +16,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-image:url("./edificio1.jpg");
+    background-image:url("./Imagenes/edificio.jpg");
     background-size: 100%;
     /* background-color: rgba(128, 128, 128, 0.199); */
     overflow:hidden;
