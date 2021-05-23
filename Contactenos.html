@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Quicksand:wght@500&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="estilos.css" />
+        <link rel="stylesheet" href="grafico.css" />
+        <title>Contactenos</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- <img src="dinero-dibujos.jpg" alt="Panel principal" height="250px"> -->
+            <h1>MC INVERSIONES</h1>
+            <h2>
+                Empresa financiera dedicada a la administración de activos y
+                creación de riqueza
+            </h2>
+        </header>
+        <nav>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="inversiones.html">Inversiones </a>
+            </li>
+            <li>
+                <a href="CotizacionesMoneda.html">Cotizaciones de moneda </a>
+            </li>
+            <li>
+                <a href="QuienesSomos.html">¿Quienes somos?</a>
+            </li>
+            <li>
+                <a href="Contactenos.html">Contactenos </a>
+            </li>
+        </nav>
+        <main>
+            <h2>¡Escribenos y te responderemos a la brevedad!</h2>
+            <form action="#" method="GET" class="formulario">
+                <fieldset>
+                    <!-- <legend>¡Contactanos!</legend> -->
+
+                    <label for="nombre">Nombre</label>
+                    <input
+                        type="text"
+                        placeholder="Ingrese su nombre"
+                        id="nombre"
+                    />
+                    <label for="mail">Mail</label>
+                    <input
+                        type="email"
+                        placeholder="Ingrese su mail"
+                        id="mail"/>
+                    <hr />
+                    <label for="nivelConocimiento" id="nivCono"
+                        >¿Que nivel de conocimiento posee en inversiones en la
+                        bolsa?</label                    >
+                    <select name="nivelConocimiento">
+                        <option value="Alto">
+                            Tengo experiencia experiencia en inversiones en la
+                            bolsa
+                        </option>
+                        <option value="Medio">
+                            No tengo experiencia, pero conozco sobre finanzas
+                        </option>
+                        <option value="Bajo">
+                            No tengo expeciencia ni conocimientos sobre el tema
+                        </option>
+                    </select>
+                    <div class="formularioCheckbox">
+                        <h3>¿Como nos conoces?</h3>
+                        <input type="checkbox" id="inst" value="" />
+                        <label for="inst">Instagram</label>
+
+                        <input type="checkbox" id="face" value="" />
+                        <label for="face">Facebook</label>
+
+                        <input type="checkbox" id="goo" value="" />
+                        <label for="goo">Google</label>
+
+                        <input type="checkbox" id="recom" value="" />
+                        <label for="recom">Recomendación</label>
+
+                        <input type="checkbox" id="otro" value="" />
+                        <label for="otro">Otros</label>
+                    </div>
+                    <hr />
+                    <input type="reset" value="Limpiar datos" class="button" />
+                    <input type="button" value="Enviar" class="button" />
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <h6>Contáctenos</h6>
+            <h6>Términos y condiciones</h6>
+            <h6>Políticas de seguridad y privacidad</h6>
+        </footer>
+    </body>
+</html>
