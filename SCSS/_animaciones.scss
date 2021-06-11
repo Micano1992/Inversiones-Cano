@@ -1,0 +1,31 @@
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.transforRotate
+{
+    transition: transform .3s;
+}
+
+.transforRotate:hover
+{
+    height: 150px;
+    transform: rotate(360deg);
+}
+
+.transforScale
+{
+    transition: transform .2s;
+}
+
+.transforScale:hover
+{
+    transform: scale(2,1);
+}

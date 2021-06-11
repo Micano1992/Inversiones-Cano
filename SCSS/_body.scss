@@ -1,0 +1,233 @@
+$colorGris: gray;
+$colorblanco: #f6f6f6;
+
+
+body {
+    background-image:url("../Imagenes/diamond_upholstery.png");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/*
+.headerTexto
+{
+    top: 50%;
+    bottom: 0;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    animation-duration: 4s;
+   animation-name: aparecer;
+   animation-iteration-count: 1;
+
+}
+.headerTexto h5
+{
+    font-size: 2.25rem;
+}    */
+
+/* header img{
+    float:inline-start;
+    margin-left: 30px;
+    height: 200;
+    width: 200;
+} */
+
+.nav-fix{
+
+    position: fixed !important;
+    width: 100%;
+    padding-left: 15px;
+    height: 5%;
+    min-height: 70px;
+    top: 0px;
+    right: 0;
+    z-index: 1;
+
+}
+
+
+
+main {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    padding: 35px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 120%;
+    min-height: 40vh;
+     h2
+    {
+        padding: 15px;
+    }
+    .textoMain__p{
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: $colorGris;
+    }
+}
+
+
+
+.formulario
+{
+    display: flex;
+    /* padding: 50px; */
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    .formulario__fieldset 
+    {
+        background-color: rgba(128, 128, 128, 0.233);
+        padding: 15px;
+        width: 60%;
+    }
+    .formulario__label 
+    {
+        width: 75px;
+        font-weight:bold;
+        display:inline-block;
+    }
+    .formulario__h3
+{
+    width: 100%;
+    font-weight:bold;
+	display:inline-block;
+	padding-top: 15px;
+    padding-bottom: 8px;
+    font-size: 1em;
+}
+.formulario__btn
+{
+    font-size: 15px;
+    margin: 10px;
+    padding: 6px;
+}
+}
+
+
+
+.formulario input[type="text"],
+.formulario input[type="email"]
+{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid $colorblanco;
+	border-radius:3px;
+	background-color: $colorblanco;
+	margin:8px 0;
+	display:inline-block;
+}
+
+
+#imagenQuien
+{
+    float: left;
+    padding-left: 50px;
+    margin-right: 10px;
+}
+
+#nivCono
+{
+    width: 100%;
+    font-weight:bold;
+	display:inline-block;
+	padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+.formularioCheckbox label{
+    padding-bottom: 25px;}
+
+.formularioCheckbox label{
+    width:auto
+}
+
+
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    min-height: 120px;
+    background-color: black;
+    align-items: center;
+    flex-wrap: wrap;
+    .footer__h6
+    {
+       color: white;
+        font-weight:bold;
+        display:inline-block;
+        /* padding-top: 15px;
+        padding-bottom: 8px; */
+        font-size: 1em;
+    }
+}
+
+
+.gridPadre
+{
+    display: grid;
+    grid-template-areas: 
+    "graf aside"
+    "equi aside";
+    grid-template-columns: 80% 20%;
+    /*grid-template-rows: 200px;*/
+}
+
+aside
+{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-color: black;
+    border-style:dashed;
+    transition: transform 2s;
+
+    .aside__img
+{
+    height: 75px;
+}
+
+}
+
+/*aside:hover
+{
+    transform: skewY(20deg);
+}*/
+
+
+.secGraficos
+{
+    grid-area: graf;
+}
+
+.secEquipo
+{    
+    grid-area: equi;
+    
+    .secEquipo__h2
+    {
+        padding: 15px;
+    }
+}
+
+
+.secInversion
+{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+.secCotizacion
+{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+

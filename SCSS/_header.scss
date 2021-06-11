@@ -1,0 +1,41 @@
+$colorblanco: #f6f6f6;
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /*background-image:url("./Imagenes/edificio.jpg"); */
+    background-size: 100%;
+    /* background-color: rgba(128, 128, 128, 0.199); */
+    overflow:hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    height: 40rem;
+    /*width: 100%;*/
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: &$colorblanco;
+    border-bottom: 5px solid black; 
+    /*margin-top: 50px;*/
+
+
+
+.texto__header
+{
+    top: 50%;
+    font-size: 2rem;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    .texto__header__h5
+    {
+        font-size: 3rem;
+    }
+}
+}
