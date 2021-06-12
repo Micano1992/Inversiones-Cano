@@ -1,0 +1,26 @@
+$colorblanco: #fff;
+$colorborde: #ddd;
+$colorfondo: #25272b54;
+
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+  background: $colorfondo;
+  color: $colorblanco;
+  overflow: hidden;
+  
+  tr {
+    border-top: 20px 0olid $colorborde;
+    border-bottom: 20px solid $colorborde;
+    border-color: lighten(#d3dce4, 10%);
+  }
+  
+  
+  th, td {
+    text-align: center;
+    display: table-cell;
+    padding: 1em;
+    margin: .5em 1em;
+    }
+  }
+
