@@ -283,7 +283,7 @@ aside {
   color: #fff;
   overflow: hidden; }
   .rwd-table tr {
-    border-top: 20px 0olid #ddd;
+    border-top: 20px solid #ddd;
     border-bottom: 20px solid #ddd;
     border-color: #f3f5f7; }
   .rwd-table th, .rwd-table td {

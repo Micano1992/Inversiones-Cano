@@ -10,7 +10,7 @@ $colorfondo: #25272b54;
   overflow: hidden;
   
   tr {
-    border-top: 20px 0olid $colorborde;
+    border-top: 20px solid $colorborde;
     border-bottom: 20px solid $colorborde;
     border-color: lighten(#d3dce4, 10%);
   }
@@ -21,6 +21,7 @@ $colorfondo: #25272b54;
     display: table-cell;
     padding: 1em;
     margin: .5em 1em;
+
     }
   }
 
