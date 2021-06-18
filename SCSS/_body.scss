@@ -87,7 +87,6 @@ main {
     }
     .formulario__label 
     {
-        width: 75px;
         font-weight:bold;
         display:inline-block;
     }
@@ -106,14 +105,23 @@ main {
     margin: 10px;
     padding: 6px;
 }
+
+.formularioSelect
+{
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
+}
 
 
 .formulario input[type="text"],
 .formulario input[type="email"]
 {
-	width:180px;
+	width:9.5em;
 	padding:3px 10px;
 	border:1px solid $colorblanco;
 	border-radius:3px;
@@ -121,6 +129,7 @@ main {
 	margin:8px 0;
 	display:inline-block;
 }
+
 
 
 #imagenQuien
@@ -137,13 +146,6 @@ main {
 	display:inline-block;
 	padding-top: 15px;
     padding-bottom: 8px;
-}
-
-.formularioCheckbox label{
-    padding-bottom: 25px;}
-
-.formularioCheckbox label{
-    width:auto
 }
 
 
@@ -231,4 +233,7 @@ aside
     justify-content:flex-start;
     flex-direction: column;
 }
+
+
+
 

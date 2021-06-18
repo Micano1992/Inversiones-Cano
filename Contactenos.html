@@ -91,31 +91,28 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
-
-
-        <!-- <img src="./edificio1.jpg" alt="Panel principal" height="100%"> -->
-        <!--<h1>MC INVERSIONES</h1>
-        <h2>Empresa financiera dedicada a la administración de activos y creación de riqueza</h2> -->
     </header>
     <main>
         <h2>¡Escribenos y te responderemos a la brevedad!</h2>
         <form action="#" method="GET" class="formulario">
             <fieldset class="formulario__fieldset">
-                <!-- <legend>¡Contactanos!</legend> -->
                 <div class="form-group">
 
-                    <label for="nombre" class="formulario__label">Nombre</label>
-                    <input type="text" placeholder="Ingrese su nombre" id="nombre" class="form-control" />
-                    <label for="mail" class=" formulario__label">Mail</label>
-                    <input type="email" placeholder="Ingrese su mail" id="mail" class="form-control" />
+                    <label for="nombre" class="formulario__label">Nombre
+                        <input type="text" placeholder="Ingrese su nombre" id="nombre" class="form-control" />
+                    </label>
+                    <label for="mail" class=" formulario__label">Mail
+                        <input type="email" placeholder="Ingrese su mail" id="mail" class="form-control" />
+                    </label>
                     <hr />
                     <label for="nivelConocimiento" id="nivCono">¿Que nivel de conocimiento posee en inversiones en la
-                        bolsa?</label>
-                    <select name="nivelConocimiento">
+                        bolsa?
+                    </label>
+                    <select name="nivelConocimiento" class="formularioSelect">
                         <option value="Alto">
-                            Tengo experiencia experiencia en inversiones en la
-                            bolsa
+                            <div class="formularioSelect">
+                                <p>Tengo experiencia experiencia en inversiones en la bolsa</p>
+                            </div>
                         </option>
                         <option value="Medio">
                             No tengo experiencia, pero conozco sobre finanzas
@@ -124,23 +121,14 @@
                             No tengo expeciencia ni conocimientos sobre el tema
                         </option>
                     </select>
-                    <div class="formularioCheckbox">
-                        <h3 class="formulario__h3">¿Como nos conoces?</h3>
-                        <input type="checkbox" id="inst" value="" />
-                        <label class="formulario__label" for="inst">Instagram</label>
+                    <h3 class="formulario__h3">¿Como nos conoces?</h3>
 
-                        <input type="checkbox" id="face" value="" />
-                        <label class="formulario__label" for="face">Facebook</label>
-
-                        <input type="checkbox" id="goo" value="" />
-                        <label for="goo">Google</label>
-
-                        <input type="checkbox" id="recom" value="" />
-                        <label for="recom">Recomendación</label>
-
-                        <input type="checkbox" id="otro" value="" />
-                        <label for="otro">Otros</label>
-                    </div>
+                    <label class="checkbox-inline formularioCheckbox"><input type="checkbox" value="">Instagram</label>
+                    <label class="checkbox-inline formularioCheckbox"><input type="checkbox" value="">Facebook</label>
+                    <label class="checkbox-inline formularioCheckbox"><input type="checkbox"
+                            value="">Recomendación</label>
+                    <label class="checkbox-inline formularioCheckbox"><input type="checkbox" value="">Google</label>
+                    <label class="checkbox-inline formularioCheckbox"><input type="checkbox" value="">Otros</label>
                     <hr />
                     <input type="reset" value="Limpiar datos" class="formulario__btn" />
                     <input type="button" value="Enviar" class="formulario__btn" data-toggle="modal"

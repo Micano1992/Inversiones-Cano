@@ -96,7 +96,6 @@ main {
     padding: 15px;
     width: 60%; }
   .formulario .formulario__label {
-    width: 75px;
     font-weight: bold;
     display: inline-block; }
   .formulario .formulario__h3 {
@@ -110,10 +109,16 @@ main {
     font-size: 15px;
     margin: 10px;
     padding: 6px; }
+  .formulario .formularioSelect {
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word; }
 
 .formulario input[type="text"],
 .formulario input[type="email"] {
-  width: 180px;
+  width: 9.5em;
   padding: 3px 10px;
   border: 1px solid #f6f6f6;
   border-radius: 3px;
@@ -132,12 +137,6 @@ main {
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 8px; }
-
-.formularioCheckbox label {
-  padding-bottom: 25px; }
-
-.formularioCheckbox label {
-  width: auto; }
 
 footer {
   display: flex;
@@ -195,6 +194,37 @@ aside {
   justify-content: flex-start;
   flex-direction: column; }
 
+@media (max-width: 980px) {
+  header {
+    height: 30rem; }
+    header .texto__header {
+      top: 50%;
+      font-size: 2rem;
+      padding-top: 20px;
+      font-size: 40px;
+      font-family: 'Quicksand', sans-serif;
+      animation-duration: 4s;
+      animation-name: aparecer;
+      animation-iteration-count: 1; }
+      header .texto__header .texto__header__h5 {
+        font-size: 2rem; }
+      header .texto__header .texto__header__p {
+        font-size: 1.5rem; }
+  aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-color: black;
+    border-style: dashed;
+    margin: 30px;
+    transition: transform 2s; }
+    aside .aside__img {
+      height: 45px; }
+    aside h2 {
+      font-size: 0px; } }
+
 @media (max-width: 820px) {
   header {
     height: 25rem; }
@@ -224,11 +254,56 @@ aside {
     aside .aside__img {
       height: 45px; }
     aside h2 {
-      font-size: 0px; } }
+      font-size: 0px; }
+  .tablaInv {
+    font-size: 14px;
+    margin: 0px;
+    line-height: 20px; }
+  .tablaCot {
+    font-size: 15px;
+    margin: 0px; } }
 
-@media (max-width: 440px) {
+@media (max-width: 620px) {
   header {
-    height: 15rem; }
+    height: 18rem; }
+    header .texto__header {
+      top: 50%;
+      font-size: 2rem;
+      padding-top: 20px;
+      font-size: 40px;
+      font-family: 'Quicksand', sans-serif;
+      animation-duration: 4s;
+      animation-name: aparecer;
+      animation-iteration-count: 1; }
+      header .texto__header .texto__header__h5 {
+        font-size: 2rem; }
+      header .texto__header .texto__header__p {
+        font-size: 1.5rem; }
+  aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-color: black;
+    border-style: dashed;
+    margin: 10px;
+    transition: transform 2s; }
+    aside .aside__img {
+      height: 25px; }
+    aside h2 {
+      font-size: 0px; }
+  .tablaInv {
+    font-size: 10px;
+    margin: 0px;
+    line-height: 20px; }
+  .tablaCot {
+    font-size: 12px;
+    margin: 0px; } }
+
+@media (max-width: 450px) {
+  header {
+    height: 13rem; }
     header .texto__header {
       top: 50%;
       font-size: 2rem;
