@@ -1,3 +1,106 @@
+@media (min-width: 1601px) {
+
+    header{
+
+        height: 60rem;
+        .texto__header
+{
+    top: 50%;
+    font-size: 2rem;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    .texto__header__h5
+    {
+        font-size: 2rem;
+    }
+
+    .texto__header__p
+    {
+        font-size: 1.5rem;
+    }
+}
+    }
+
+    aside
+{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-color: black;
+    border-style:dashed;
+    margin: 30px;
+    transition: transform 2s;
+
+    .aside__img
+{
+    height: 45px;
+}
+
+h2{
+    font-size: 0px;
+}
+
+}
+}
+
+@media (max-width: 1500px) {
+
+    header{
+
+        height: 30rem;
+        .texto__header
+{
+    top: 50%;
+    font-size: 2rem;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    .texto__header__h5
+    {
+        font-size: 2rem;
+    }
+
+    .texto__header__p
+    {
+        font-size: 1.5rem;
+    }
+}
+    }
+
+    aside
+{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-color: black;
+    border-style:dashed;
+    margin: 30px;
+    transition: transform 2s;
+
+    .aside__img
+{
+    height: 45px;
+}
+
+h2{
+    font-size: 0px;
+}
+
+}
+}
+
+
 @media (max-width: 980px) {
 
     header{
@@ -108,7 +211,7 @@ h2{
 
 .tablaCot
 {
-    font-size: 15px;
+    font-size: 15 px;
     margin: 0px;
 
 }
@@ -184,7 +287,7 @@ h2{
 
     header{
 
-        height: 13rem;
+        height: 14rem;
         .texto__header
 {
     top: 50%;
@@ -227,6 +330,74 @@ h2{
 h2{
     font-size: 0px;
 }
+
+}
+
+
+}
+
+@media (max-width: 390px) {
+
+    header{
+
+        height: 14rem;
+        .texto__header
+{
+    top: 50%;
+    font-size: 2rem;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    .texto__header__h5
+    {
+        font-size: 2rem;
+    }
+
+    .texto__header__p
+    {
+        font-size: 1.5rem;
+    }
+}
+    }
+
+    aside
+{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-color: black;
+    border-style:dashed;
+    margin: 10px;
+    transition: transform 2s;
+
+    .aside__img
+{
+    height: 25px;
+}
+
+h2{
+    font-size: 0px;
+}
+
+}
+
+.tablaInv
+{
+    font-size: 8px;
+    margin: 0px;
+    line-height: 10px;
+
+}
+
+.tablaCot
+{
+    font-size: 12px;
+    margin: 0px;
 
 }
 
