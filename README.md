@@ -1,5 +1,12 @@
 # Inversiones-Cano
 Proyecto de curso de Desarrollo Web en CoderHouse
+Alumno: Matias Cano
+
+Sobre el proyecto: Se creó un sitio web para una empresa de inversiones de capitales. Se promocionan los productos disponibles (Fondos comunes de inversión) y se habilitó un medio de comunicación para los clientes.
+
+Tecnologías: HTML - CSS. Framework Bootstrap
+
+
 
 Datos para SEO
 
